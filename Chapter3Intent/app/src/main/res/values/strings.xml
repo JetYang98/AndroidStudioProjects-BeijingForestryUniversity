@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Chapter3Intent</string>
+    <string name="open_name">标准Action操作</string>
+</resources>

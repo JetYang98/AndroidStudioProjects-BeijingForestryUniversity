@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="存款本金："
+        android:textSize="26dp"/>
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入一个正数"
+        android:textSize="26dp"
+        android:maxLines="1"
+        android:layout_below="@id/text1" />
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="存款年限："
+        android:textSize="26dp"
+        android:layout_below="@id/edit1"
+        android:layout_marginTop="10dp"/>
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入一个整数"
+        android:textSize="26dp"
+        android:maxLines="1"
+        android:layout_below="@id/text2"/>
+    <Button
+        android:id="@+id/bu1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="提交"
+        android:textSize="20dp"
+        android:layout_below="@id/edit2"
+        android:layout_marginLeft="80dp"
+        android:onClick="onClick"/>
+    <Button
+        android:id="@+id/bu2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="重置"
+        android:textSize="20dp"
+        android:layout_below="@id/edit2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="80dp"
+        android:onClick="onClick"/>
+    <TextView
+        android:id="@+id/xianshi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/bu2"
+        android:text=""
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="50dp"
+        android:textSize="20dp"/>
+
+</RelativeLayout>
