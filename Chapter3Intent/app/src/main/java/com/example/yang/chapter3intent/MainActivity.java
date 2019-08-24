@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
         bu1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Uri uri = Uri.parse("http://www.mldn.cn");
+                Uri uri = Uri.parse("http://192.168.1.14");
                 Intent intent = new Intent();
                 intent.setAction(Intent.ACTION_VIEW);
                 intent.setData(uri);

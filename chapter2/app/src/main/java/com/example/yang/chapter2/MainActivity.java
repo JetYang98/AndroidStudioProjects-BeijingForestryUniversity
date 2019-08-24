@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Toast.makeText(this, "登录成功", Toast.LENGTH_SHORT).show();
         boolean isSaveSuccess = FileSaveQQ.saveUserInfo(this, number, password);
         if(isSaveSuccess){
-            Toast.makeText(this, "登陆成功", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "保存成功", Toast.LENGTH_SHORT).show();
         }else{
             Toast.makeText(this, "保存失败", Toast.LENGTH_SHORT).show();
         }
